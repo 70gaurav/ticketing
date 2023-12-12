@@ -1,6 +1,6 @@
 {
   "name": "tickets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@gauravticketing/common": "^1.0.4",
+    "@gauravticketing/common": "^1.0.6",
     "@types/cookie-session": "^2.0.45",
     "@types/express": "^4.17.18",
     "@types/jsonwebtoken": "^9.0.3",
@@ -28,6 +28,7 @@
     "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.5.4",
+    "node-nats-streaming": "^0.3.2",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
